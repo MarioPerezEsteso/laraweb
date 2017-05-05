@@ -28,7 +28,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
         parent::setUp();
         $this->createApplication();
         Artisan::call('migrate:reset');
-        Artisan::call('migrate');
+        Artisan::call('migrate', array("--force" => true));
         Artisan::call('db:seed', array("--class" => "TestDatabaseSeeder"));
     }
 
