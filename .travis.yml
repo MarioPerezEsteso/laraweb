@@ -10,7 +10,7 @@ before_script:
   - composer self-update
   - composer install --no-interaction
   - php artisan key:generate
-  - php artisan migrate
+  - php artisan migrate --force
 
 script:
   - vendor/bin/phpunit -c phpunit.xml --debug
