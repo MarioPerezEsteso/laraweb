@@ -1,16 +1,15 @@
 language: php
 
 php:
-  - 7.0
+    - 7.0
 
 before_script:
-  - cp .env.travis .env
-  - cp phpunit.xml.example phpunit.xml
-  - mysql -e 'create database db_test;'
-  - composer self-update
-  - composer install --no-interaction
-  - php artisan key:generate
-  - php artisan migrate --force
+    - cp .env.travis .env
+    - cp phpunit.xml.example phpunit.xml
+    - mysql -e 'create database db_test;'
+    - composer self-update
+    - composer install --no-interaction
+    - php artisan key:generate
 
 script:
-  - vendor/bin/phpunit -c phpunit.xml --debug
+    - vendor/bin/phpunit -c phpunit.xml --debug
