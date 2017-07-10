@@ -1,15 +1,15 @@
 @extends('home.layout')
 
 @section('title')
-    {{ trans('home.new_gallery') }}
+    {{ trans('home.galleries') }}
 @endsection
 
 @section('pageTitle')
-    {{ trans('home.new_gallery') }}
+    {{ trans('home.galleries') }}
 @endsection
 
 @section('pageDescription')
-    {{ trans('home.new_gallery_page_description') }}
+    {{ trans('home.galleries_page_description') }}
 @endsection
 
 @section('content')
