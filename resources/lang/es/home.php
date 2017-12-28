@@ -106,4 +106,13 @@ return [
     'show_post_description' => 'Mostrar la descripción del post en la cabecera sobre la imagen (su tema debe soportarlo)',
     'allow_comments' => 'Permitir comentarios',
     'enable_adsense' => 'Habilitar adsense para este sitio (su tema debe soportarlo)',
+    'galleries'=>'Galerias',
+    'all_galleries'=>'Todas las galerias',
+    'create_gallery'=>'Crear galeria',
+    'galleries_page_description'=>'Lista de galerias',
+    'galleries_min'=>'',
+    'edit_gallery'=>'Editar galeria',
+    'edit_gallery_page_description'=>'En esta página podrá editar una galeria',
+    'create_your_gallery'=>'Crea tu galeria',
+    'gallery_title'=>'Titulo de la galeria',
 ];
